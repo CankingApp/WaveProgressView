@@ -1,4 +1,4 @@
-# AndroidWaveView
+# WaveProgressView
 
 一个具有波浪效果的原型View，可以用于电量显示，或是进度条的展示。
 
