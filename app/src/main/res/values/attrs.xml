@@ -11,5 +11,9 @@
         format="color"/>
     <attr name="waveColor"
         format="color"/>
+    <attr name="innerBgColor"
+        format="color"/>
+    <attr name="outBgColor"
+        format="color"/>
   </declare-styleable>
 </resources>
