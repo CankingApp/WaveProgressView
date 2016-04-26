@@ -29,7 +29,7 @@ public class WaveProgressView extends View {
     /**
      * 外环的宽度
      */
-    private int mStrokeWidth = dpToPx(20);
+    private int mStrokeWidth = dpToPx(10);
 
     private Paint mPaintOutCircle;
     private Paint mPaintBorderCircle;
