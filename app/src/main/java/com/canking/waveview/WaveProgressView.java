@@ -107,7 +107,7 @@ public class WaveProgressView extends View {
         TypedArray ta = cxt.obtainStyledAttributes(attrs, R.styleable.WaveViewStyle);
         int waveColor = ta.getColor(R.styleable.WaveViewStyle_waveColor, 0xFF45A348);
         int innerBgColor = ta.getColor(R.styleable.WaveViewStyle_innerBgColor, 0x9045A348);
-        int outBgColor = ta.getColor(R.styleable.WaveViewStyle_innerBgColor, 0xFF4CAF50);
+        int outBgColor = ta.getColor(R.styleable.WaveViewStyle_innerBgColor, 0x00000000);
         int mainTextColor = ta.getColor(R.styleable.WaveViewStyle_mainTextSize, 0xFFFFFFFF);
         int mainTextSize = ta.getDimensionPixelOffset(R.styleable.WaveViewStyle_mainTextSize, spToPx(40));
         mTipString = ta.getString(R.styleable.WaveViewStyle_topInfoTextValue);
